@@ -6,7 +6,7 @@ install:
 - dotnet restore
 script:
 - dotnet build
-- dotnet test PathToYourTestProject/NameOfYourTestProject.csproj
+- dotnet test C:\Users\Casper\Desktop\School\3. Semester\SDM\TravisRepository/TravisRepository.csproj
 branches:
   only:
   - master
